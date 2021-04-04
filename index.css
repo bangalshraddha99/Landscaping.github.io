@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:url('photo2.jpg') no-repeat;
+  background-size: cover;height: 100vh;
+}
+nav
+{
+background: #282929;
+height: 90px;
+width: 100%;
+}
+label.logo
+{
+  color: whitesmoke;
+  font-size: 40px;line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li
+{
+  display: inline-block;
+  line-height: 80px;margin: 0 5px;
+}
+nav ul li a
+{
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 7px 15px;
+  border-radius: 3px;
+}
+nav ul li a:hover
+{
+  background-color: rgb(109, 106, 106);
+  color: rgb(216, 209, 209);
+  transition: 0.6s ease;
+}
+.overlay1
+{
+  background: rgba(22, 21, 21, 0.434);
+  width: 100%;height: 128vh;position: absolute;z-index:1 ;
+}
+.info
+{
+  margin-left: 5%;
+}
+.info #p1
+{
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 20%;
+  margin-left:13%;
+  
+}
+.info label
+{
+  font-size: 30px;
+  color: rgb(251, 249, 249); 
+  margin-top: 27%;margin-left:39%;
+ }
+ button
+ {
+  font-family:Candara;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid black;
+  font-size: 18px;
+  color: whitesmoke;
+  background-color: #417718; 
+  margin-top: 10%;
+  margin-left:45%;
+ }
+ button:hover
+ {
+   background: rgb(8, 8, 8);
+   color: rgb(255, 255, 255);
+ }
+ .welcome
+ {
+   margin-top: 55%;background-color: white;
+  margin-left: 6%;
+ }
+ .about2 img , .about3 img
+ {
+   height: 200px;width: 220px;
+ }
+ .about2,.about3,.about1
+ {
+   display: inline-block;
+   padding-left: 5%;
+ }
+ .about1 #pp1{
+   font-size: 35px;
+   color: #3e3f3f;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(111, 189, 69);
+   padding-bottom: 2%;
+   }
+ .about1 label{color: rgb(115, 163, 44);
+}
+#pp2 ,.about2 p ,.about3 p
+{
+  color: #161a1a;
+  font-size: 1rem;
+  padding-top: 2%;
+}
+.about2 label,.about3 label
+{
+  font-size: 19px;
+  color: #3e3f3f;
+}
+.services
+{
+  background-color: #64b329;
+  
+}
+#s1 
+{
+  font-size: 45px;color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 9%;padding-left: 40%;
+  padding-right: 2%;  
+ }
+#s2{font-size: 16px;color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 28%;
+}
+.ser1,.ser2,.ser3,.ser4
+{
+  margin-left: 6%;
+  padding-top: 5%;
+  display: inline-block;
+  padding-bottom: 10%;
+}
+.ser1 img,.ser2 img,.ser3 img,.ser4 img
+{
+  margin-top: 5%;
+  border-radius: 100%;
+  border:10px solid #7aca3d; 
+  height: 220px;
+  width: 200px;
+}
+.ser1 label,.ser2 label,.ser3 label,.ser4 label{
+  font-size: 20px;
+  color: whitesmoke;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 6px;
+}
+.ser1 p,.ser2 p,.ser3 p,.ser4 p{
+  color: whitesmoke;font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 3%;
+}
+
+.footer
+{
+  background-color: #282929;
+  height: 22%;width: 100%;
+
+}
+#foo
+{
+  font-size: 14px;
+  color: #6c6d6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 35px;
+}
+#foo label{
+  color: #9fa5a5;
+}
+.fb ,.twit, .google
+{
+  font-size: 25px; 
+  display: inline-block;padding-top: 3%;
+  padding-right: 3%;
+}
+.fb{
+  padding-top: 3%; padding-left: 44%;
+}
+  .google p:hover
+{ background-color: rgb(80, 78, 78);
+}.fb p:hover
+{ background-color: rgb(80, 78, 78);
+}.twit p:hover
+{ background-color: rgb(80, 78, 78);
+}

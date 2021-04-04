@@ -1,0 +1,185 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url(new.jpg) ; background-size: cover;height: 100vh;
+  background-repeat: no-repeat;
+}
+nav
+{
+background: #282929;
+height: 90px;
+width: 100%;
+}
+label.logo
+{
+  color: whitesmoke;
+  font-size: 40px;line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li
+{
+  display: inline-block;
+  line-height: 80px;margin: 0 5px;
+}
+nav ul li a
+{
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 7px 15px;
+  border-radius: 3px;
+}
+nav ul li a:hover
+{
+  background-color: rgb(109, 106, 106);
+  color: rgb(216, 209, 209);
+  transition: 0.6s ease;
+}
+.myself
+{
+  margin-top: 3%;text-align: center;
+}
+.myself p
+{
+  margin-top: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+.shit
+{
+  background-color: rgb(8, 66, 39);
+  margin:1%;
+  padding: 1%;width: 80vh;
+  margin-left: 30%;
+}
+.overlay1
+{
+background-color: #65bb64ba;
+height: 141vh;
+}
+.myself i
+{
+  padding-right: 1%;
+}
+.exp
+{
+  margin-left: 15%;
+  margin-top: 2%;
+ 
+}
+.exp ul li
+{
+  list-style:disc;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+}
+#pro
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0); margin-bottom: 2%;
+}
+#work
+{
+  margin-left: 15%;
+  padding-top: 2%;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0); margin-bottom: 2%;
+}
+.project ul li
+{
+    list-style:disc;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 15%;
+}
+
+.footer
+{
+  background-color: #282929;
+  height: 20%;width: 100%;
+}
+#foo
+{
+  font-size: 14px;
+  color: #6c6d6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 3%;
+}
+#foo label{
+  color: #9fa5a5;
+}
+.fb ,.twit, .google
+{
+  font-size: 25px; 
+  display: inline-block;padding-top: 3%;
+  padding-right: 3%;
+}
+.fb{
+  padding-top: 3%; padding-left: 44%;
+}
+  .google p:hover
+{ background-color: rgb(80, 78, 78);
+}.fb p:hover
+{ background-color: rgb(80, 78, 78);
+}.twit p:hover
+{ background-color: rgb(80, 78, 78);
+}

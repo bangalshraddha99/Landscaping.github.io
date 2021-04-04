@@ -1,0 +1,107 @@
+
+*
+{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:url('photo2.jpg') no-repeat;
+  background-size: cover;height: 100vh;
+}
+nav
+{
+background: #282929;
+height: 90px;
+width: 100%;
+}
+label.logo
+{
+  color: whitesmoke;
+  font-size: 40px;line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li
+{
+  display: inline-block;
+  line-height: 80px;margin: 0 5px;
+}
+nav ul li a
+{
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 7px 15px;
+  border-radius: 3px;
+}
+nav ul li a:hover
+{
+  background-color: rgb(109, 106, 106);
+  color: rgb(216, 209, 209);
+  transition: 0.6s ease;
+}
+#g1 
+{
+  font-size: 4rem;color: rgb(29, 80, 20);
+  font-weight:600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 5%;padding-left: 35%;
+  padding-right: 20%;
+ }
+.gallery
+{
+  background-color: whitesmoke;
+}
+.gal img
+{
+  height: 200px;width: 290px;
+  padding-left: 12px;
+  padding-top: 2%;
+  
+}
+.gal
+{
+  margin-left: 18%;
+  padding-bottom: 3%;
+}
+
+
+.footer
+{
+  background-color: #282929;
+  height: 22%;width: 100%;
+
+}
+#foo
+{
+  font-size: 14px;
+  color: #6c6d6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 35px;
+}
+#foo label{
+  color: #9fa5a5;
+}
+.fb ,.twit, .google
+{
+  font-size: 25px; 
+  display: inline-block;padding-top: 3%;
+  padding-right: 3%;
+}
+.fb{
+  padding-top: 3%; padding-left: 44%;
+}
+  .google p:hover
+{ background-color: rgb(80, 78, 78);
+}.fb p:hover
+{ background-color: rgb(80, 78, 78);
+}.twit p:hover
+{ background-color: rgb(80, 78, 78);
+}

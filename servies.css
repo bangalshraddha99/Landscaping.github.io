@@ -1,0 +1,105 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('alsonew.jpg') ; background-size: cover;height: 100vh;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+  }
+*
+{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+nav
+{
+background: #282929;
+height: 90px;
+width: 100%;
+}
+label.logo
+{
+  color: whitesmoke;
+  font-size: 40px;line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li
+{
+  display: inline-block;
+  line-height: 80px;margin: 0 5px;
+}
+nav ul li a
+{
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 7px 15px;
+  border-radius: 3px;
+}
+nav ul li a:hover
+{
+  background-color: rgb(109, 106, 106);
+  color: rgb(216, 209, 209);
+  transition: 0.6s ease;
+}
+#p1
+{
+  font-weight:bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.4rem;
+  padding-left: 15%;
+  padding-top: 3%;
+}
+.overlay
+{
+  background-color: #28292974;
+  height: 150vh;
+}
+.ser ol li{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
+  padding-left: 15%;
+  padding-top: 1.5%;
+}
+.ser ol
+{
+  padding-top: 2%;
+}
+
+.footer
+{
+  background-color: #282929;
+  height: 22%;width: 100%;
+
+}
+#foo
+{
+  font-size: 14px;
+  color: #6c6d6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 35px;
+}
+#foo label{
+  color: #9fa5a5;
+}
+.fb ,.twit, .google
+{
+  font-size: 25px; 
+  display: inline-block;padding-top: 3%;
+  padding-right: 3%;
+}
+.fb{
+  padding-top: 3%; padding-left: 44%;
+}
+  .google p:hover
+{ background-color: rgb(80, 78, 78);
+}.fb p:hover
+{ background-color: rgb(80, 78, 78);
+}.twit p:hover
+{ background-color: rgb(80, 78, 78);
+}
